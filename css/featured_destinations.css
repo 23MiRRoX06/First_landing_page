@@ -1,0 +1,115 @@
+.featured_destinations {
+    max-width: 77%;
+    padding-left: 7.5%;
+    background: url("../images/background_elements/plus_sign.svg") no-repeat left 8% bottom 38%;
+  
+}
+
+.destinations__container {
+    padding-left: 9.6%;
+    margin: 133px 0 76px;
+}
+
+.destinations__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../images/background_elements/circle.svg") no-repeat right 16% top;
+    background-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .destinations__top {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        background: none;
+    }
+} 
+
+.destinations__view-all {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: url("../images/right_arrow.svg") no-repeat 97% center;
+    background-size: 6px 10px;
+}
+
+.destinations__view-all a {
+    color: #FB8F1D;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.destinations__places {
+    padding: 56px 0 64px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background: url("../images/background_elements/circle.svg") no-repeat center bottom;
+}
+
+.places__item {
+    width: 260px;
+    height: 330px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 8px;
+    background-size: 260px 330px;
+}
+
+@media screen and (max-width: 1600px) {
+    .destinations__places {
+        justify-content: space-around;
+    }
+
+    .places__item {
+        margin-right: 5px;
+    }
+} 
+
+.raja-ampat {
+    background-image: url("../images/featured_destinations/raja_ampat.svg");
+}
+
+.fanjingshan {
+    background-image: url("../images/featured_destinations/fanjingshan.svg");
+}
+
+.vevey {
+    background-image: url("../images/featured_destinations/vevey.svg");
+}
+
+.skadar {
+    background-image: url("../images/featured_destinations/skadar.svg");
+}
+
+.places__caption {
+    width: 120px; 
+    height: 56px;
+    border-radius: 0 6px 0 0;
+    background-color: #FFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.places__caption h6 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #7D7987;
+}
+
+.places__caption span {
+    font-weight: 600;
+    font-size: 17px;
+    color: #042521;
+}
+
+

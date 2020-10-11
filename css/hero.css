@@ -1,0 +1,107 @@
+.hero {
+    max-width: 1415px;
+    padding-top: 45px;
+    margin: 0 auto;
+    background: url("../images/background_elements/circle.svg") no-repeat left bottom 35%;
+    background-size: 26px;
+}
+
+.hero__container {
+    margin: 80px 6% 0 3%;
+    display: flex;
+    justify-content: space-between;
+    background: url("../images/background_elements/plus_sign.svg") no-repeat right 65% top 6%;
+    background-size: 20px;
+}
+
+
+.hero__image {
+    min-width: 687px;
+}
+
+.hero__inner {
+    max-width: 470px;
+}
+
+
+.hero__inner > .heading {
+    font-size: 64px;
+    margin: 35px 0 74px 0;
+}
+
+.hero__inner h2 {
+    color: #202336;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.black-rectangle {
+    background-color: #202336;
+    margin: 21px 0 48px;
+    width: 32px;
+    height: 2px;
+}
+
+.inner__finder-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner__finder-form select {
+    width: 220px;
+    height: 52px;
+    border-radius: 6px;   
+    border: solid 0.8px #AFB0B9;
+    background-color: transparent;
+    color: #4A4C53;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    background: url("../images/bottom_arrow.svg") no-repeat 88% center;
+    font-size: 15px;
+    padding-left: 6%;
+    margin-bottom: 35px;
+}
+
+.inner__explore {
+    width: 180px;
+    height: 52px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1500px) {
+    .hero {
+        background: none;
+    }
+
+    .hero__image {
+        display: none;
+    }
+                            
+    .hero__container {
+        justify-content: center;
+        background: none;
+    }
+                            
+    .hero__inner {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+                                
+    .hero .heading {
+        align-self: center;
+        text-align: center;
+    }
+
+    .inner__finder-form {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 20px;
+    }
+} 

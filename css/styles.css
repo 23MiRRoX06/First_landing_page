@@ -1,0 +1,14 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+/* globals */
+@import "global.css";
+
+/* sections */
+@import "header.css";
+@import "hero.css";
+@import "explore_the_world.css";
+@import "featured_destinations.css";
+@import "footer.css";

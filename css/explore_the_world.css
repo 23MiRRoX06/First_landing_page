@@ -1,0 +1,58 @@
+.explore_the_world {
+    background: url("../images/background_elements/plus_sign.svg") no-repeat right 47% top 12%;
+    background-size: 20px;
+    background-color: #F8F8F8;
+    padding: 110px 13.6% 130px 7.5%;
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore_the_world__content {
+    background: url("../images/background_elements/circle.svg") no-repeat right 37% bottom 48%;
+    background-size: 20px;
+    padding: 95px 0 200px;
+    width: 480px;
+    height: 330px;
+}
+
+@media screen and (max-width:400px) {
+    .explore_the_world__content {
+        height: 380px;
+    }
+}
+
+.explore_the_world__content p {
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 20px 0 40px;
+}
+
+.content__learn-more {
+    width: 164px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1500px) {
+    .explore_the_world {
+        justify-content: center;
+    }
+
+    .explore_the_world__image {
+        display: none;
+    }
+
+    .explore_the_world__content {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        background: none;
+    }
+} 
