@@ -17,6 +17,11 @@
 
 .hero__image {
     min-width: 687px;
+    transition: 2.5s;
+}
+
+.hero__image:hover{
+    transform: skew(-5deg);
 }
 
 .hero__inner {
@@ -40,7 +45,12 @@
     background-color: #202336;
     margin: 21px 0 48px;
     width: 32px;
-    height: 2px;
+    height: 3px;
+    transition: 2s;
+}
+
+.black-rectangle:hover {
+    transform: rotate(720deg) scale(2);
 }
 
 .inner__finder-form {

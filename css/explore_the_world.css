@@ -8,6 +8,14 @@
     justify-content: space-between;
 }
 
+.explore_the_world__image {
+    transition: 2.5s;
+}
+
+.explore_the_world__image:hover {
+    transform: skew(-5deg);
+}
+
 .explore_the_world__content {
     background: url("../images/background_elements/circle.svg") no-repeat right 37% bottom 48%;
     background-size: 20px;
@@ -18,7 +26,7 @@
 
 @media screen and (max-width:400px) {
     .explore_the_world__content {
-        height: 380px;
+        height: 330px;
     }
 }
 
@@ -35,6 +43,16 @@
     height: 48px;
     font-size: 16px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 370px) {
+    .explore_the_world__content {
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 140px;
+    }
 }
 
 @media screen and (max-width: 1500px) {

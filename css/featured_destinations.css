@@ -61,6 +61,11 @@
     align-items: flex-end;
     border-radius: 8px;
     background-size: 260px 330px;
+    transition: 1.8s;
+}
+
+.places__item:hover {
+   transform: scale(1.1);
 }
 
 @media screen and (max-width: 1600px) {
